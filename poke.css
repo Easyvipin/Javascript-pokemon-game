@@ -1,0 +1,190 @@
+@media screen and (max-width:600px){
+
+
+}
+@media screen and (min-width:601px){
+body{
+    background-color: black;
+}    
+#land{
+    background-color: black;
+    background-image: url("title.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+#startbar{
+    margin-top:600px;
+}
+#startgame{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    
+}   
+#gamebar{
+    display:none;
+}
+#gamer1,#gamer2{
+    display: none;
+    background-color:black;
+    width:300px;
+    margin-top:20px;
+    border:2px solid blue;
+    color:yellow;
+
+}
+#letsgo{
+    display: none;
+    background-color:black;
+    width:100px;
+    margin-top:20px;
+    border:2px solid blue;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color:yellow;
+ 
+}
+#gamebar{
+    height: 100vh;
+    background-color:black;
+    background-image:url(myfav.png),url(done.jpg),;
+    background-position: right bottom, left bottom;
+    background-repeat: no-repeat,no-repeat;
+    perspective: 100px; 
+ }
+ #ground{
+     margin-top: 5%;
+     margin-right:20%;
+ }
+ #gamerone{
+     background-color:rgba(0,0,0,0);
+     float: left;
+     width :400px;
+ }
+ #three{
+    background-color:black;
+    float: left;
+    color:yellow;
+    border:6px solid;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+    width :300px;
+    height:300px;
+    margin-left:10%;
+    margin-right:10%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ #gamertwo{
+    background-color:rgba(0,0,0,0); 
+    float: left;
+    border:2px solid black;
+    width :400px;
+ }
+ #stats1,#stats2,#finalstats{
+     display:none;
+ }
+ #stats1,#stats2,#finalstats{
+     width:300px;
+ }
+ 
+ #result1,#result2{
+     widows: 300px;
+     border:2px solid black;
+     height: 200px;
+ }
+ #player1{
+     display:block;
+     background-color:rgba(0,0,0,0);    
+     background-image:url("bestball.gif");
+     background-size:contain;
+     background-repeat:no-repeat;
+     width:300px;
+     height:300px;
+     border:none;
+     
+
+ }
+ #player2{
+    display:block;
+    background-color:rgba(0,0,0,0);    
+     background-image:url("bestball.gif");
+     background-size:contain;
+     background-repeat:no-repeat;
+     width:300px;
+     height:300px;
+     border:none;
+    
+}
+#player1:focus{
+    outline:none;
+}
+#player2:focus{
+    outline:none;
+}
+#respname,#respvalue{
+    color:white;
+}
+#respname1,#respvalue1{
+    color:white;
+}
+#finalstats{
+    width:230px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+#ree{
+    color:yellow;
+    font-size:40px;
+    font-family: 'Wallpoet', cursive;
+}
+#loading{
+    background-image: url("picka.png");
+    background-position: center;
+}
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(picka.gif) center no-repeat black;
+}
+h3{
+    font-family: 'Wallpoet', cursive;
+    font-size: 40px;
+    color:greenyellow;       
+}
+#bet{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    color:yellow;
+    
+}
+#input{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: yellow;
+    width:400px;
+    height:60px;
+} 
+#dev{
+    color:gray;
+} 
+#devhome{
+    color:gray;
+    font-family: 'Orbitron', sans-serif;
+} 
+#name1,#name2{
+    font-family: 'Orbitron', sans-serif;
+    color:yellow;
+}    
+
+}

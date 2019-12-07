@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Wallpoet&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="poke.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="se-pre-con"></div>
+    <div class="jumbotron text-center" id="land">
+
+        <div class="container" id="startbar">
+        <button type="button" class="btn btn-primary" id="startgame" onclick="startgame()">Start game</button>
+        <h4 id="devhome">Developed by @EASYVIPIN</h4>
+        <div id="details">
+        <center>
+        <input type="text" id="gamer1" class="form-control text-center"  required="required" placeholder="player1">
+        <input type="text" id="gamer2" class="form-control text-center"  required="required" placeholder="player2">
+        <input type="submit" id="letsgo" class="form-control" value="lets go" onclick="letsgo()">
+        </center>
+        </div>
+    </div> 
+    </div> 
+    <div class="jumbotron text-center" id="gamebar">
+            <div class="container" id="landbar">    
+                    <h4 id="dev">Developed by @EASYVIPIN</h1> 
+                    <h1 id="bet">BET ON</h1>
+                   <center> <select name="strength" id="input" class="form-control" required="required">
+                        <option value="0">SPEED</option>
+                        <option value="1">DEFENSE</option>
+                        <option value="2">ATTACK</option>
+                        <option value="5">HIT POINTS</option>
+                    </select>
+                    </center>
+                </div>
+        <div class="container" id="ground">
+        <div class="row">
+            <div class="col-md-4 "> 
+
+        <div class ="jumbotron text-center" id="gamerone">
+                <button type="submit" class="btn btn-default" id="player1" onclick="findpoke1()">player1</button>
+                <h3 id="name1"></h3>
+                <div id="stats1">      
+                <center><img src="" class="img-responsive" alt="Image" id="result1"></center>
+             <span id="respname"></span>
+             <span id="respvalue"></span>
+             </div>
+        </div>
+        </div>
+        <div class="col-md-4 text-center"> 
+        <div class ="jumbotron text-center" id="three">
+           <center> <h3 id="ree">PLAY GAME</h3></center>
+        </div>
+        </div>
+        <div class="col-md-4 "> 
+        <div class ="jumbotron text-center" id="gamertwo">
+                <button type="submit" class="btn btn-default" id="player2" onclick="findpoke2()">player2</button>
+                <h3 id="name2"></h3>
+                <div id="stats2">
+                <center><img src="" class="img-responsive" alt="Image" id="result2"></center>
+                <span id="respname1"></span>
+             <span id="respvalue1"></span>
+             </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    
+    <script src="poke.js"></script>
+</body>
+</html>

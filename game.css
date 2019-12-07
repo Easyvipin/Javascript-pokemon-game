@@ -1,0 +1,83 @@
+@media screen and (min-width:601px){
+ #gamebar{
+    height: 100vh;
+    background-color:black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    perspective: 100px; 
+ }
+ #ground{
+     margin-top: 5%;
+     margin-right:20%;
+ }
+ #gamerone{
+     background-color:black;
+     float: left;
+     border:2px solid black;
+     width :400px;
+ }
+ #three{
+    background-color:black;
+    float: left;
+    border:2px solid black;
+    width :300px;
+    height:300px;
+    margin-left:10%;
+    margin-right:10%;
+    background-image: url("go.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ #gamertwo{
+    background-color:black;
+    float: left;
+    border:2px solid black;
+    width :400px;
+ }
+ #stats1,#stats2,#finalstats{
+     display:none;
+ }
+ #stats1,#stats2,#finalstats{
+     width:300px;
+     background-color:grey;
+     border: 2px solid black;
+ }
+ 
+ #result1,#result2{
+     widows: 300px;
+     border:2px solid black;
+     height: 200px;
+ }
+ #player1{
+     display:block;
+     background-color:black;    
+     background-image:url("bestball.gif");
+     background-size:contain;
+     background-repeat:no-repeat;
+     width:300px;
+     height:300px;
+     border:none;
+     
+
+ }
+ #player2{
+    display:block;
+     background-color:black;    
+     background-image:url("bestball.gif");
+     background-size:contain;
+     background-repeat:no-repeat;
+     width:300px;
+     height:300px;
+     border:none;
+    
+}
+#resp   {
+    border:2px solid black;
+}
+#finalstats{
+    width:230px;
+    background-color:black;
+    border: 2px solid black;
+}
+}
